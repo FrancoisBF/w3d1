@@ -1,0 +1,100 @@
+main .new-tweet{
+  border-radius: 10px;
+  background-color: #D3D3D3;
+  height: 200px;
+}
+
+main h2{
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+main .text-box{
+  width: 680px;
+  height: 100px;
+  display: block;
+  margin-left: 10px;
+}
+
+main .counter{
+  margin-left: 83%;
+  align-self: right;
+}
+
+main .tweet{
+  align-self: right;
+  margin-left: 7px;
+}
+
+.error {
+  color: #FF0000;
+}
+
+#tweet-id .tweet-class {
+  border-radius: 10px;
+  border: 1px solid black;
+  margin: 10px 20px;
+}
+
+#tweet-id header {
+  padding: 10px;
+  background-color: #D3D3D3;
+
+}
+
+#tweet-id header img{
+  float: left;
+}
+
+#tweet-id h1{
+  float: right;
+}
+
+#tweet-id div {
+  clear: both;
+  display: block;
+  background-color: #FFFFFF;
+}
+
+.p-tweet{
+  width: 680px;
+  height: 100px;
+}
+
+#tweet-id footer{
+    height: 30px;
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+
+#tweet-id .clearfix{
+  height: 80px;
+}
+
+.footer-style {
+  opacity: 1;
+  float: right;
+  padding-right: 10px;
+}
+
+#tweet-id article {
+  opacity: 0.6;
+}
+
+.fa {
+  opacity: 0;
+}
+
+#tweet-id article:hover {
+  border: 1px solid black;
+  opacity: 1;
+
+}
+
+#tweet-id article:hover .fa {
+  opacity: 1;
+}
